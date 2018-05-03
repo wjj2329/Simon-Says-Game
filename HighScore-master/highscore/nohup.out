@@ -1,0 +1,90 @@
+
+> highscore@0.0.0 start /home/bitnami/HighScore-master/highscore
+> node ./bin/www
+
+Connected
+[0mGET / [32m200 [0m7.121 ms - 2559[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.378 ms - 328[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m4.302 ms - 125004[0m
+[0mGET /javascripts/simon.js [32m200 [0m5.999 ms - 2480860[0m
+In the GET route!
+[ { __v: 0,
+    Score: 3,
+    Name: 'william',
+    _id: 57a3ae308e29322240020146 },
+  { __v: 0,
+    Score: 9,
+    Name: 'william',
+    _id: 57a4efaae926e4564d9de332 },
+  { __v: 0, Score: 4, Name: 'will', _id: 57acde3fdbf21b1f1933ffae },
+  { __v: 0, Score: 4, Name: 'will', _id: 57acde8bdbf21b1f1933ffaf },
+  { __v: 0, Score: 1, Name: 'will', _id: 57acdea1dbf21b1f1933ffb0 },
+  { __v: 0, Score: 4, Name: 'will', _id: 57acdf26dbf21b1f1933ffb1 },
+  { __v: 0, Score: 5, Name: 'will', _id: 57acdf61dbf21b1f1933ffb2 },
+  { __v: 0,
+    Score: 3,
+    Name: 'william',
+    _id: 57b39fc879e6162851df1a98 },
+  { __v: 0, Score: 5, Name: 'ok', _id: 57b3a00e79e6162851df1a99 },
+  { __v: 0,
+    Score: 1,
+    Name: 'William',
+    _id: 585485f801ec156363fcbbc6 },
+  { __v: 0,
+    Score: 1,
+    Name: 'william',
+    _id: 58dd35a5bab717435746ecce } ]
+[0mGET /score [32m200 [0m33.801 ms - 751[0m
+[0mGET / [36m304 [0m1.465 ms - -[0m
+[0mGET /javascripts/simon.js [36m304 [0m0.491 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.454 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.450 ms - -[0m
+In the GET route!
+[0mGET / [36m304 [0m0.334 ms - -[0m
+[0mGET /score [0m- [0m- ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.703 ms - -[0m
+[0mGET /javascripts/simon.js [36m304 [0m0.895 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.858 ms - -[0m
+In the GET route!
+{ [MongoError: no connection available for operation]
+  name: 'MongoError',
+  message: 'no connection available for operation',
+  driver: true }
+{ [MongoError: no connection available for operation]
+  name: 'MongoError',
+  message: 'no connection available for operation',
+  driver: true }
+[0mGET / [36m304 [0m0.437 ms - -[0m
+[0mGET /score [0m- [0m- ms - -[0m
+[0mGET /javascripts/simon.js [36m304 [0m0.277 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.189 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.208 ms - -[0m
+In the GET route!
+[0mGET /score [0m- [0m- ms - -[0m
+[0mGET / [36m304 [0m0.468 ms - -[0m
+[0mGET /javascripts/simon.js [36m304 [0m0.733 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.957 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.289 ms - -[0m
+In the GET route!
+Terminated
+
+npm ERR! Linux 3.13.0-125-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v5.4.0
+npm ERR! npm  v3.3.12
+npm ERR! code ELIFECYCLE
+npm ERR! highscore@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the highscore@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the highscore package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls highscore
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/bitnami/HighScore-master/highscore/npm-debug.log
